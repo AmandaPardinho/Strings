@@ -1,4 +1,4 @@
-sentA = "You don't need to use a repeating structure to print multiple times\n"
+sentA = "You don't need to use a repeating structure to print a string multiple times\n"
 for i in range(10):
     print(sentA)
 
