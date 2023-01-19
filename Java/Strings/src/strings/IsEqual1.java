@@ -1,6 +1,6 @@
 package strings;
 
-public class IsEqual {
+public class IsEqual1 {
     public static void main(String[] args) {
         System.out.println("""
                 \nIf we have two strings and we want to compare their contents, determining if they are equal, what 
