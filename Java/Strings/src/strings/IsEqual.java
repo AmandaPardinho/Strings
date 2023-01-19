@@ -29,7 +29,12 @@ public class IsEqual {
 
         System.out.println("""
                 Why does Case 1 have a different answer than Case 2?
-                In Case 1, the literal "Amanda" occurs twice, so the JVM will treat both as the same object.
+                In Case 1, the literal "Amanda" occurs twice, so the JVM will treat both as the same object. For this 
+                reason, the response of the expression name1 == nickname1 will be taken as true. In Case 2, the 
+                expression name == nickname will be considered false. The reason for this is the creation of a new 
+                object with the new String("Amanda") command and the other object remaining a literal "Amanda". With the 
+                creation of this new object, the JVM starts to consider that there are two distinct objects and, 
+                therefore, one will not be equal to the other.
                 """);
     }
 }
