@@ -29,6 +29,7 @@ public class IsEqual {
 
         System.out.println("""
                 Why does Case 1 have a different answer than Case 2?
+                In Case 1, the literal "Amanda" occurs twice, so the JVM will treat both as the same object.
                 """);
     }
 }
