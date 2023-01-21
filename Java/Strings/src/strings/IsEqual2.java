@@ -42,7 +42,16 @@ public class IsEqual2 {
                 so using the equalsIgnoreCase method.
                 """);
 
-        
+        //Case 3
+
+        String word5 = "Amanda";
+        String word6 = "amanda";
+
+        if(word5.equalsIgnoreCase(word6)){
+            System.out.println("They are equal");
+        }else{
+            System.out.println("They are different");
+        }
 
     }
 }
