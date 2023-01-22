@@ -10,9 +10,13 @@ public class anagram {
         char[] anagram1 = word1.toCharArray();
         char[] anagram2 = word2.toCharArray();
 
-        Arrays.sort(word1);
-        Arrays.sort(word2);
+        //Arrays.sort(anagram1);
+        //Arrays.sort(anagram2);
 
-        
+        if(Arrays.equals(anagram1, anagram2)){
+            System.out.println("It is an anagram");
+        }else{
+            System.out.println("It isn't an anagram");
+        }
     }
 }
