@@ -52,6 +52,5 @@ public class IsEqual2 {
         }else{
             System.out.println("They are different");
         }
-
     }
 }
