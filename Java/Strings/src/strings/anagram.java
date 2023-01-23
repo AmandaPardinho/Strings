@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class anagram {
     public static void main(String[] args) {
-        String word1 = "Celia";
-        String word2 = "Alice";
+        String word1 = "celia";
+        String word2 = "alice";
 
         char[] anagram1 = word1.toCharArray();
         char[] anagram2 = word2.toCharArray();
 
-        //Arrays.sort(anagram1);
-        //Arrays.sort(anagram2);
+        Arrays.sort(anagram1);
+        Arrays.sort(anagram2);
 
         if(Arrays.equals(anagram1, anagram2)){
             System.out.println("It is an anagram");
